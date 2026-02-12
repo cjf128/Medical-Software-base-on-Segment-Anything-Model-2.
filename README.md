@@ -20,6 +20,8 @@ SAMS 是一个基于 PySide6 框架开发的跨平台桌面应用程序，专为
 
 请按照以下步骤设置您的环境并运行 SAMS：
 
+首先下载[sam2.1_hiera_base_plus](https://huggingface.co/mabote-itumeleng/ONNX-SAM2-Segment-Anything/tree/main)的enconder和deconder文件，将他们放置在model文件夹下即可
+
 ```bash
 # 克隆仓库到本地
 git clone https://github.com/cjf128/SAMS.git
@@ -37,5 +39,8 @@ pip install -r requirements.txt
 # 运行程序
 python main.py
 ```
+# 参考:
+SAM2 Repository: https://github.com/facebookresearch/segment-anything-2
 
+ONNX-SAM2-Segment-Anything: https://github.com/ibaiGorordo/ONNX-SAM2-Segment-Anything
 ---
