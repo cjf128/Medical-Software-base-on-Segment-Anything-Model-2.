@@ -78,7 +78,7 @@ class SegmentApp(QMainWindow):
 
         self.init_size()
         self.setWindowTitle(
-            "基于 Segment Anything Model 2 的医学图像单器官交互式标注软件v1.1.1"
+            "基于 Segment Anything Model 2 的医学图像单器官交互式标注软件"
         )
 
         self.config_tools()
